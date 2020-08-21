@@ -1,6 +1,6 @@
 // learn more about HTTP functions here: https://arc.codes/primitives/http
 exports.handler = async function http (req) {
-  let message = "Hello json"
+  let message = "Praise Cage!!"
   if (process.env.MESSAGE_STYLE==="uppercase") {
     message = message.toUpperCase()
   }

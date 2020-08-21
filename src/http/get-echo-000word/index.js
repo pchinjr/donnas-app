@@ -1,6 +1,5 @@
 exports.handler = async function http(req){
   let { word } = req.pathParameters
-  console.log(req)
   return {
     statusCode: 200,
     headers: {
